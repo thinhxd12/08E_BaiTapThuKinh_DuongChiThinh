@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.glasses__app {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 99;
+}
+
+.glasses__app::before {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.glasses__app h3 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px 0;
+  z-index: 99;
+}
+
+.model {
+  position: relative;
+}
+
+.glasses__model {
+  width: 57%;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.7;
+}
+
+.glasses__info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-height: 100px;
+  z-index: 100;
+  padding: 5px 10px;
+  overflow: hidden;
+}
+
+.glasses__info h4 {
+  font-size: 20px;
+  color: #4835a2;
+  margin: 0;
+}
+
+.glasses__info p {
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+}
+
+.glasses__info::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #e8834d;
+  opacity: 0.6;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
