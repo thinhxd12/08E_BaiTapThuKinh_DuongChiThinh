@@ -146,7 +146,7 @@ export default class BaiTapThuKinh extends Component {
 
                     </div>
 
-                    <div className="card__item p-3">
+                    <div className="card__item pt-3">
                         <div className="row">
                             {this.renderTable()}
 

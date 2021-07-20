@@ -75,7 +75,6 @@
   content: "";
   width: 100%;
   height: 100%;
-  /* background-color: #e8834d; */
   opacity: 0.6;
   position: absolute;
   bottom: 0;
@@ -100,6 +99,8 @@
 }
 
 .card__img:focus {
+  background-color: rgba(255, 255, 255, 0.45);
+  transform: translateY(-2px);
   outline: none;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
