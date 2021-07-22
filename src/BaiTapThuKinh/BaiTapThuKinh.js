@@ -71,14 +71,18 @@ export default class BaiTapThuKinh extends Component {
 
     state = {
         glasses: {
-            url: '',
-            name: '',
-            desc: ''
+            "id": "",
+            "price": "",
+            "name": "",
+            "url": "",
+            "desc": ""
         },
         glassesCompare: {
-            url: './glassesImage/v1.png',
-            name: 'GUCCI G8850U',
-            desc: 'Light pink square lenses define these sunglasses, ending with amother of pearl effect tip.'
+            "id": 1,
+            "price": 30,
+            "name": "GUCCI G8850U",
+            "url": "./glassesImage/v1.png",
+            "desc": "Light pink square lenses define these sunglasses, ending with amother of pearl effect tip. "
         }
     }
 
