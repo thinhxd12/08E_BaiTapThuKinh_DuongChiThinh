@@ -1,9 +1,9 @@
-import BaiTapThuKinh from "./BaiTapThuKinh/BaiTapThuKinh";
+import BaiTapOanTuXi from "./BaiTapOanTuXi/BaiTapOanTuXi";
 
 function App() {
   return (
     <div className="App">
-      <BaiTapThuKinh/>
+      <BaiTapOanTuXi/>
     </div>
   );
 }
